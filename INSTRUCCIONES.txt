@@ -1,0 +1,20 @@
+SOCCER360 2.2.1 - APP INSTALABLE EN ANDROID (PWA)
+
+Contiene: index.html, manifest.webmanifest, service-worker.js, icon-192.png, icon-512.png.
+
+IMPORTANTE: este archivo ZIP no es un APK. Se debe publicar su CONTENIDO en un sitio HTTPS para que Chrome habilite la instalación como aplicación.
+
+DESDE UN CELULAR ANDROID (vía GitHub Pages):
+1. Descargar este ZIP y extraerlo en Archivos/Descargas.
+2. Crear una cuenta en github.com, abrir un repositorio público llamado soccer360-app.
+3. Abrir el repositorio en Chrome, preferiblemente con 'Sitio para computadora' activado. Elegir Add file > Upload files.
+4. Subir los CINCO archivos de la carpeta extraída, SIN subir la carpeta contenedora.
+5. Confirmar con Commit changes.
+6. Ir a Settings > Pages. En Source elegir Deploy from a branch; Branch main, Folder /(root), Save.
+7. Cuando se publique, abrir la dirección indicada en Pages usando Chrome Android.
+8. Menú ⋮ > Instalar aplicación / Añadir a pantalla principal > Instalar.
+9. Abrir la aplicación con internet una vez y luego probarla sin conexión.
+
+Los partidos se guardan en el almacenamiento de la aplicación de ese teléfono/navegador. Exportar siempre el JSON al finalizar cada partido; borrar datos del navegador o desinstalar puede eliminar el historial guardado localmente.
+
+El repositorio público contiene SOLO el código y recursos de la app. Los partidos NO se suben automáticamente a GitHub.
